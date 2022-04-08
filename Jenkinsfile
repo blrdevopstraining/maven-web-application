@@ -1,4 +1,3 @@
-//node('master')
 
 node('flipkart-node')
 {
