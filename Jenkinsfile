@@ -55,7 +55,7 @@ echo "JOB Name ${env.JOB_NAME}"
 	    emailext body: '''Build Mail from Jenkins
 
 Regards,
-MSS''', subject: 'Test Mail', to: 'devopstrainingblr@gmail.com'
+MSS''', subject: 'Test Mail', to: 'blrdevopstraining@gmail.com'
 	}
     
 }
