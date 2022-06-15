@@ -1,6 +1,7 @@
 
 node('flipkart-node')
 {
+	echo "hi"
          //Getting the  env  global varibale values
  
   echo "GitHub BranhName ${env.BRANCH_NAME}"
