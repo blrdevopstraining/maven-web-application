@@ -1,8 +1,7 @@
 
 node('flipkart-node')
 {
-    
-     //Getting the  env  global varibale values
+         //Getting the  env  global varibale values
  
   echo "GitHub BranhName ${env.BRANCH_NAME}"
   echo "Jenkins Job Number ${env.BUILD_NUMBER}"
