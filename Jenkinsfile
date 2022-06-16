@@ -11,4 +11,9 @@ node{
       sh "${mavenCMD} clean package"
       
     }
+      stage('EmailNotification'){
+	emailext body: '''Build Mail from Jenkins
+Regards,
+MSS''', subject: 'Test Mail', to: 'blrdevopstraining@gmail.com'
+	}
 }
