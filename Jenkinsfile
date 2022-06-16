@@ -3,7 +3,7 @@ node{
       def mavenCMD = "${mavenHome}/bin/mvn"
      
     stage('SCM Checkout'){
-        git credentialsId: 'github', url: 'https://github.com/blrdevopstraining/java-web-app-docker.git'
+        git branch: 'development', credentialsId: 'githubpassword', url: 'https://github.com/blrdevopstraining/maven-web-application.git'
     }
     
     stage(" Maven Clean Package"){
